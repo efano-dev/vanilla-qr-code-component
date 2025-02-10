@@ -3,6 +3,7 @@
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-300: hsl(212, 45%, 89%);
     --color-white: hsl(0, 0%, 100%);
+    --color-black: hsla(0, 0%, 0%, 4.77%);
     --fw-1: 700;
     --fw-2: 400;
     --fs-1: 22px;
@@ -46,6 +47,7 @@ img {
     width: 320px;
     height: 499px;
     background-color: var(--color-white);
+    box-shadow: 0 25px 25px var(--color-black);
     padding: var(--spacing-200) var(--spacing-200) var(--spacing-500);
     border-radius: 20px;
 }
