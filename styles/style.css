@@ -20,7 +20,9 @@
     --spacing-200: 16px;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -37,7 +39,8 @@ main {
     background-color: var(--color-slate-300);
 }
 
-h1, p {
+h1,
+p {
     margin: 0;
 }
 
